@@ -1,0 +1,59 @@
+.OrderTitle {
+    margin-left: -4em;
+    color: black;
+    background: beige;
+}
+
+.OrderList {
+    background: beige;
+}
+
+.App-logo-b {
+    margin-left: -4em;
+    color: black;
+    background: beige;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo-b {
+        animation: App-logo-b-spin infinite 45s linear;
+    }
+}
+
+@keyframes App-logo-b-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Title {
+    margin-left: -2em;
+    color: black;
+}
+
+.buttonBuyNow {
+    width: 10%;
+    font-size: 100%;
+    border-radius: 2%;
+    background-color: #a03037;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.scroll {
+    /*padding-top: 1em;*/
+    margin: 0em 14em;
+    width: 60em;
+    height: 30em;
+    overflow-x: hidden;
+    background: burlywood;
+    /*!*text-align: justify;*!*/
+}
+
+.RadioS {
+    margin-left: 3em;
+}
